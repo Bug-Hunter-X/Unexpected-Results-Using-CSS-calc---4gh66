@@ -1,0 +1,15 @@
+/* bugSolution.css */
+
+/* Correctly using calc() to ensure expected results */
+.container {
+  width: 500px;
+}
+
+.element {
+  width: calc((100% - 20px) / 2);
+  /* Explicitly using parentheses to define the calculation order */
+  background-color: lightblue;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/*In the corrected code, parentheses are used to specify the order of operations and consistent units are used, leading to the expected results. */
